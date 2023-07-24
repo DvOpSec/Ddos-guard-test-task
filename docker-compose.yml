@@ -6,10 +6,10 @@ services:
     volumes:
       - ./data/mysql:/var/lib/mysql
     environment:
-      - MYSQL_DATABASE=exporter
-      - MYSQL_USER=exporter
-      - MYSQL_PASSWORD=exporter
-      - MYSQL_ROOT_PASSWORD=root_password
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASS}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASS}
     ports:
       - 3306:3306  
 
@@ -66,13 +66,13 @@ services:
   gitlab:
     image: gitlab/gitlab-ce:latest
     ports:
-      - '8081:80'
-      - '8080:443'
+      - '8080:80'
+      - '3228:443'
       - '2222:22'
     volumes:
-      - './gitlab/config:/etc/gitlab:ro'
-      - './gitlab/logs:/var/log/gitlab'
-      - './gitlab/data:/var/opt/gitlab'
+      - './data/gitlab/config:/etc/gitlab:ro'
+      - './data/gitlab/logs:/var/log/gitlab'
+      - './data/gitlab/data:/var/opt/gitlab'
     environment:
       GITLAB_OMNIBUS_CONFIG: |
         pages_external_http=['http://plantuml-server:9999']  
