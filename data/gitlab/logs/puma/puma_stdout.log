@@ -1,0 +1,65 @@
+=== puma startup: 2023-08-09 11:48:01 +0000 ===
+{"timestamp":"2023-08-09T11:48:02.154Z","pid":793,"message":"- Worker 1 (PID: 1016) booted in 0.71s, phase: 0"}
+{"timestamp":"2023-08-09T11:48:02.157Z","pid":793,"message":"- Worker 0 (PID: 1014) booted in 0.73s, phase: 0"}
+{"timestamp":"2023-08-09T11:48:02.509Z","pid":793,"message":"- Worker 2 (PID: 1018) booted in 1.05s, phase: 0"}
+{"timestamp":"2023-08-09T11:48:02.595Z","pid":793,"message":"- Worker 3 (PID: 1019) booted in 1.12s, phase: 0"}
+=== puma startup: 2023-08-09 12:06:24 +0000 ===
+{"timestamp":"2023-08-09T12:06:25.342Z","pid":307,"message":"- Worker 0 (PID: 516) booted in 0.45s, phase: 0"}
+{"timestamp":"2023-08-09T12:06:25.358Z","pid":307,"message":"- Worker 1 (PID: 518) booted in 0.44s, phase: 0"}
+{"timestamp":"2023-08-09T12:06:25.375Z","pid":307,"message":"- Worker 2 (PID: 520) booted in 0.44s, phase: 0"}
+{"timestamp":"2023-08-09T12:06:25.392Z","pid":307,"message":"- Worker 3 (PID: 522) booted in 0.44s, phase: 0"}
+=== puma startup: 2023-08-09 12:09:48 +0000 ===
+{"timestamp":"2023-08-09T12:09:49.184Z","pid":439,"message":"- Worker 0 (PID: 611) booted in 0.41s, phase: 0"}
+{"timestamp":"2023-08-09T12:09:49.238Z","pid":439,"message":"- Worker 1 (PID: 613) booted in 0.45s, phase: 0"}
+{"timestamp":"2023-08-09T12:09:49.266Z","pid":439,"message":"- Worker 2 (PID: 615) booted in 0.46s, phase: 0"}
+{"timestamp":"2023-08-09T12:09:49.319Z","pid":439,"message":"- Worker 3 (PID: 617) booted in 0.5s, phase: 0"}
+=== puma startup: 2023-08-09 12:36:43 +0000 ===
+{"timestamp":"2023-08-09T12:36:43.578Z","pid":337,"message":"- Worker 0 (PID: 518) booted in 0.39s, phase: 0"}
+{"timestamp":"2023-08-09T12:36:43.592Z","pid":337,"message":"- Worker 1 (PID: 520) booted in 0.39s, phase: 0"}
+{"timestamp":"2023-08-09T12:36:43.609Z","pid":337,"message":"- Worker 2 (PID: 522) booted in 0.39s, phase: 0"}
+{"timestamp":"2023-08-09T12:36:43.616Z","pid":337,"message":"- Worker 3 (PID: 524) booted in 0.39s, phase: 0"}
+=== puma startup: 2023-08-09 12:43:25 +0000 ===
+{"timestamp":"2023-08-09T12:43:26.086Z","pid":348,"message":"- Worker 1 (PID: 518) booted in 0.4s, phase: 0"}
+{"timestamp":"2023-08-09T12:43:26.111Z","pid":348,"message":"- Worker 2 (PID: 520) booted in 0.41s, phase: 0"}
+{"timestamp":"2023-08-09T12:43:26.137Z","pid":348,"message":"- Worker 0 (PID: 516) booted in 0.46s, phase: 0"}
+{"timestamp":"2023-08-09T12:43:26.179Z","pid":348,"message":"- Worker 3 (PID: 522) booted in 0.46s, phase: 0"}
+=== puma startup: 2023-08-09 12:49:53 +0000 ===
+{"timestamp":"2023-08-09T12:49:53.934Z","pid":439,"message":"- Worker 1 (PID: 610) booted in 0.47s, phase: 0"}
+{"timestamp":"2023-08-09T12:49:53.960Z","pid":439,"message":"- Worker 3 (PID: 614) booted in 0.46s, phase: 0"}
+{"timestamp":"2023-08-09T12:49:53.972Z","pid":439,"message":"- Worker 0 (PID: 608) booted in 0.53s, phase: 0"}
+{"timestamp":"2023-08-09T12:49:54.058Z","pid":439,"message":"- Worker 2 (PID: 612) booted in 0.58s, phase: 0"}
+=== puma startup: 2023-08-09 13:04:54 +0000 ===
+{"timestamp":"2023-08-09T13:04:54.826Z","pid":440,"message":"- Worker 1 (PID: 630) booted in 0.54s, phase: 0"}
+{"timestamp":"2023-08-09T13:04:54.961Z","pid":440,"message":"- Worker 2 (PID: 632) booted in 0.65s, phase: 0"}
+{"timestamp":"2023-08-09T13:04:55.026Z","pid":440,"message":"- Worker 0 (PID: 628) booted in 0.76s, phase: 0"}
+{"timestamp":"2023-08-09T13:04:55.102Z","pid":440,"message":"- Worker 3 (PID: 634) booted in 0.77s, phase: 0"}
+=== puma startup: 2023-08-09 13:17:09 +0000 ===
+{"timestamp":"2023-08-09T13:17:09.830Z","pid":441,"message":"- Worker 0 (PID: 607) booted in 0.38s, phase: 0"}
+{"timestamp":"2023-08-09T13:17:09.927Z","pid":441,"message":"- Worker 2 (PID: 611) booted in 0.45s, phase: 0"}
+{"timestamp":"2023-08-09T13:17:09.956Z","pid":441,"message":"- Worker 3 (PID: 613) booted in 0.47s, phase: 0"}
+{"timestamp":"2023-08-09T13:17:09.983Z","pid":441,"message":"- Worker 1 (PID: 609) booted in 0.52s, phase: 0"}
+=== puma startup: 2023-08-09 18:12:20 +0000 ===
+{"timestamp":"2023-08-09T18:12:21.336Z","pid":438,"message":"- Worker 2 (PID: 620) booted in 0.45s, phase: 0"}
+{"timestamp":"2023-08-09T18:12:21.472Z","pid":438,"message":"- Worker 0 (PID: 616) booted in 0.61s, phase: 0"}
+{"timestamp":"2023-08-09T18:12:21.474Z","pid":438,"message":"- Worker 3 (PID: 621) booted in 0.57s, phase: 0"}
+{"timestamp":"2023-08-09T18:12:21.504Z","pid":438,"message":"- Worker 1 (PID: 618) booted in 0.63s, phase: 0"}
+=== puma startup: 2023-08-09 18:15:42 +0000 ===
+{"timestamp":"2023-08-09T18:15:43.453Z","pid":460,"message":"- Worker 0 (PID: 638) booted in 0.46s, phase: 0"}
+{"timestamp":"2023-08-09T18:15:43.557Z","pid":460,"message":"- Worker 2 (PID: 642) booted in 0.51s, phase: 0"}
+{"timestamp":"2023-08-09T18:15:43.651Z","pid":460,"message":"- Worker 1 (PID: 640) booted in 0.63s, phase: 0"}
+{"timestamp":"2023-08-09T18:15:43.651Z","pid":460,"message":"- Worker 3 (PID: 644) booted in 0.57s, phase: 0"}
+=== puma startup: 2023-08-09 18:32:09 +0000 ===
+{"timestamp":"2023-08-09T18:32:09.746Z","pid":333,"message":"- Worker 0 (PID: 520) booted in 0.66s, phase: 0"}
+{"timestamp":"2023-08-09T18:32:09.752Z","pid":333,"message":"- Worker 1 (PID: 522) booted in 0.65s, phase: 0"}
+{"timestamp":"2023-08-09T18:32:09.755Z","pid":333,"message":"- Worker 2 (PID: 524) booted in 0.64s, phase: 0"}
+{"timestamp":"2023-08-09T18:32:09.761Z","pid":333,"message":"- Worker 3 (PID: 526) booted in 0.63s, phase: 0"}
+=== puma startup: 2023-08-09 18:38:50 +0000 ===
+{"timestamp":"2023-08-09T18:38:50.698Z","pid":308,"message":"- Worker 1 (PID: 517) booted in 0.38s, phase: 0"}
+{"timestamp":"2023-08-09T18:38:50.698Z","pid":308,"message":"- Worker 0 (PID: 515) booted in 0.4s, phase: 0"}
+{"timestamp":"2023-08-09T18:38:50.736Z","pid":308,"message":"- Worker 2 (PID: 519) booted in 0.41s, phase: 0"}
+{"timestamp":"2023-08-09T18:38:50.748Z","pid":308,"message":"- Worker 3 (PID: 521) booted in 0.4s, phase: 0"}
+=== puma startup: 2023-08-09 18:42:34 +0000 ===
+{"timestamp":"2023-08-09T18:42:35.206Z","pid":305,"message":"- Worker 2 (PID: 526) booted in 0.41s, phase: 0"}
+{"timestamp":"2023-08-09T18:42:35.239Z","pid":305,"message":"- Worker 3 (PID: 528) booted in 0.43s, phase: 0"}
+{"timestamp":"2023-08-09T18:42:35.239Z","pid":305,"message":"- Worker 1 (PID: 524) booted in 0.46s, phase: 0"}
+{"timestamp":"2023-08-09T18:42:35.303Z","pid":305,"message":"- Worker 0 (PID: 522) booted in 0.55s, phase: 0"}

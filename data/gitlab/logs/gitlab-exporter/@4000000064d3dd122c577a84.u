@@ -1,0 +1,4 @@
+2023-08-09_18:37:26.39031 [2023-08-09 18:37:26] INFO  WEBrick 1.8.1
+2023-08-09_18:37:26.39041 [2023-08-09 18:37:26] INFO  ruby 3.0.6 (2023-03-30) [x86_64-linux]
+2023-08-09_18:37:26.39042 == Sinatra (v2.2.3) has taken the stage on 9168 for development with backup from WEBrick
+2023-08-09_18:37:26.39042 [2023-08-09 18:37:26] INFO  WEBrick::HTTPServer#start: pid=382 port=9168

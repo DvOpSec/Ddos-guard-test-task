@@ -1,0 +1,175 @@
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 29.1ms | Allocations: 27512)
+Delivered mail 64d37feddf941_32d7915859142@0ac6d25a56de.mail (7.9ms)
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 3.6ms | Allocations: 1281)
+Delivered mail 64d37ffeea7bd_32d79180593f2@0ac6d25a56de.mail (4.8ms)
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 7.0ms | Allocations: 1160)
+Delivered mail 64d3801b3f9f0_32d792345957c@0ac6d25a56de.mail (6.6ms)
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 4.2ms | Allocations: 1572)
+Delivered mail 64d3805820ba7_32d7928459757@0ac6d25a56de.mail (5.9ms)
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 28.5ms | Allocations: 27646)
+Delivered mail 64d3815344fe2_199790b8-3be@0ac6d25a56de.mail (4.8ms)
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 3.7ms | Allocations: 1263)
+Delivered mail 64d3818976ff6_19979310-153@0ac6d25a56de.mail (16.2ms)
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 38.7ms | Allocations: 27646)
+Delivered mail 64d382251e0f1_1ce790f470ea@6b42bc695093.mail (8.5ms)
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 4.4ms | Allocations: 1288)
+Delivered mail 64d382562170d_1ce7928472aa@6b42bc695093.mail (4.9ms)
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 29.4ms | Allocations: 29607)
+Delivered mail 64d3887126005_19e790cc104f@6b42bc695093.mail (29.9ms)
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 4.3ms | Allocations: 1268)
+Delivered mail 64d388a84c852_19e792fc1245@6b42bc695093.mail (4.3ms)
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 62.7ms | Allocations: 49767)
+Delivered mail 64d38a03999d1_1a67920c35150@6b42bc695093.mail (27.0ms)
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 4.7ms | Allocations: 1261)
+Delivered mail 64d38a2e99e5d_1a67911c35372@6b42bc695093.mail (5.3ms)
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Can't verify CSRF token authenticity.
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+lib/gitlab/metrics/elasticsearch_rack_middleware.rb:16:in `call'
+lib/gitlab/middleware/memory_report.rb:13:in `call'
+lib/gitlab/middleware/speedscope.rb:13:in `call'
+lib/gitlab/database/load_balancing/rack_middleware.rb:23:in `call'
+lib/gitlab/middleware/rails_queue_duration.rb:33:in `call'
+lib/gitlab/metrics/rack_middleware.rb:16:in `block in call'
+lib/gitlab/metrics/web_transaction.rb:46:in `run'
+lib/gitlab/metrics/rack_middleware.rb:16:in `call'
+lib/gitlab/jira/middleware.rb:19:in `call'
+lib/gitlab/middleware/go.rb:20:in `call'
+lib/gitlab/etag_caching/middleware.rb:21:in `call'
+lib/gitlab/middleware/query_analyzer.rb:11:in `block in call'
+lib/gitlab/database/query_analyzer.rb:37:in `within'
+lib/gitlab/middleware/query_analyzer.rb:11:in `call'
+lib/gitlab/middleware/multipart.rb:173:in `call'
+lib/gitlab/middleware/read_only/controller.rb:50:in `call'
+lib/gitlab/middleware/read_only.rb:18:in `call'
+lib/gitlab/middleware/same_site_cookies.rb:27:in `call'
+lib/gitlab/middleware/basic_health_check.rb:25:in `call'
+lib/gitlab/middleware/handle_malformed_strings.rb:21:in `call'
+lib/gitlab/middleware/handle_ip_spoof_attack_error.rb:25:in `call'
+lib/gitlab/middleware/request_context.rb:15:in `call'
+lib/gitlab/middleware/webhook_recursion_detection.rb:15:in `call'
+config/initializers/fix_local_cache_middleware.rb:11:in `call'
+lib/gitlab/middleware/compressed_json.rb:44:in `call'
+lib/gitlab/middleware/rack_multipart_tempfile_factory.rb:19:in `call'
+lib/gitlab/middleware/sidekiq_web_static.rb:20:in `call'
+lib/gitlab/metrics/requests_rack_middleware.rb:79:in `call'
+lib/gitlab/middleware/release_env.rb:13:in `call'
+Can't verify CSRF token authenticity.
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+lib/gitlab/metrics/elasticsearch_rack_middleware.rb:16:in `call'
+lib/gitlab/middleware/memory_report.rb:13:in `call'
+lib/gitlab/middleware/speedscope.rb:13:in `call'
+lib/gitlab/database/load_balancing/rack_middleware.rb:23:in `call'
+lib/gitlab/middleware/rails_queue_duration.rb:33:in `call'
+lib/gitlab/metrics/rack_middleware.rb:16:in `block in call'
+lib/gitlab/metrics/web_transaction.rb:46:in `run'
+lib/gitlab/metrics/rack_middleware.rb:16:in `call'
+lib/gitlab/jira/middleware.rb:19:in `call'
+lib/gitlab/middleware/go.rb:20:in `call'
+lib/gitlab/etag_caching/middleware.rb:21:in `call'
+lib/gitlab/middleware/query_analyzer.rb:11:in `block in call'
+lib/gitlab/database/query_analyzer.rb:37:in `within'
+lib/gitlab/middleware/query_analyzer.rb:11:in `call'
+lib/gitlab/middleware/multipart.rb:173:in `call'
+lib/gitlab/middleware/read_only/controller.rb:50:in `call'
+lib/gitlab/middleware/read_only.rb:18:in `call'
+lib/gitlab/middleware/same_site_cookies.rb:27:in `call'
+lib/gitlab/middleware/basic_health_check.rb:25:in `call'
+lib/gitlab/middleware/handle_malformed_strings.rb:21:in `call'
+lib/gitlab/middleware/handle_ip_spoof_attack_error.rb:25:in `call'
+lib/gitlab/middleware/request_context.rb:15:in `call'
+lib/gitlab/middleware/webhook_recursion_detection.rb:15:in `call'
+config/initializers/fix_local_cache_middleware.rb:11:in `call'
+lib/gitlab/middleware/compressed_json.rb:44:in `call'
+lib/gitlab/middleware/rack_multipart_tempfile_factory.rb:19:in `call'
+lib/gitlab/middleware/sidekiq_web_static.rb:20:in `call'
+lib/gitlab/metrics/requests_rack_middleware.rb:79:in `call'
+lib/gitlab/middleware/release_env.rb:13:in `call'
+Can't verify CSRF token authenticity.
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+lib/gitlab/metrics/elasticsearch_rack_middleware.rb:16:in `call'
+lib/gitlab/middleware/memory_report.rb:13:in `call'
+lib/gitlab/middleware/speedscope.rb:13:in `call'
+lib/gitlab/database/load_balancing/rack_middleware.rb:23:in `call'
+lib/gitlab/middleware/rails_queue_duration.rb:33:in `call'
+lib/gitlab/metrics/rack_middleware.rb:16:in `block in call'
+lib/gitlab/metrics/web_transaction.rb:46:in `run'
+lib/gitlab/metrics/rack_middleware.rb:16:in `call'
+lib/gitlab/jira/middleware.rb:19:in `call'
+lib/gitlab/middleware/go.rb:20:in `call'
+lib/gitlab/etag_caching/middleware.rb:21:in `call'
+lib/gitlab/middleware/query_analyzer.rb:11:in `block in call'
+lib/gitlab/database/query_analyzer.rb:37:in `within'
+lib/gitlab/middleware/query_analyzer.rb:11:in `call'
+lib/gitlab/middleware/multipart.rb:173:in `call'
+lib/gitlab/middleware/read_only/controller.rb:50:in `call'
+lib/gitlab/middleware/read_only.rb:18:in `call'
+lib/gitlab/middleware/same_site_cookies.rb:27:in `call'
+lib/gitlab/middleware/basic_health_check.rb:25:in `call'
+lib/gitlab/middleware/handle_malformed_strings.rb:21:in `call'
+lib/gitlab/middleware/handle_ip_spoof_attack_error.rb:25:in `call'
+lib/gitlab/middleware/request_context.rb:15:in `call'
+lib/gitlab/middleware/webhook_recursion_detection.rb:15:in `call'
+config/initializers/fix_local_cache_middleware.rb:11:in `call'
+lib/gitlab/middleware/compressed_json.rb:44:in `call'
+lib/gitlab/middleware/rack_multipart_tempfile_factory.rb:19:in `call'
+lib/gitlab/middleware/sidekiq_web_static.rb:20:in `call'
+lib/gitlab/metrics/requests_rack_middleware.rb:79:in `call'
+lib/gitlab/middleware/release_env.rb:13:in `call'
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 39.5ms | Allocations: 35162)
+Delivered mail 64d38b8927adf_1d1790f46212e@d7b95a64d670.mail (6.3ms)
+Raven 3.1.2 configured not to capture errors: DSN not set
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 5.5ms | Allocations: 1288)
+Delivered mail 64d38baca27e_1d1791086237f@d7b95a64d670.mail (26.3ms)
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
