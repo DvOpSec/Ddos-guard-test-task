@@ -60,6 +60,7 @@ services:
 
   plantuml-server:
     image: plantuml/plantuml-server:latest
+    container_name: plantuml-server
     ports:
       - '9999:8080'
 
@@ -70,9 +71,11 @@ services:
       - '3228:443'
       - '2222:22'
     volumes:
-      - './data/gitlab/config:/etc/gitlab:ro'
+      - './data/gitlab/config:/etc/gitlab'
       - './data/gitlab/logs:/var/log/gitlab'
       - './data/gitlab/data:/var/opt/gitlab'
     environment:
       GITLAB_OMNIBUS_CONFIG: |
-        pages_external_http=['http://plantuml-server:9999']  
+        nginx['custom_gitlab_server_config'] = "location /-/plantuml/ { \n    proxy_cache off; \n    proxy_pass  http://plantuml-server:8080/; \n}\n"
+        gitlab_pages['enabled'] = true
+        gitlab_rails['env'] = { 'PLANTUML_ENCODING' => 'deflate' }
