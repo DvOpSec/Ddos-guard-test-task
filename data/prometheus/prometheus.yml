@@ -10,4 +10,4 @@ scrape_configs:
       - targets: ['prometheus:9090']
   - job_name: 'mysql'
     static_configs:
-      - targets: ['mysql:9104']    
+      - targets: ['mysqld-exporter:9104']    
