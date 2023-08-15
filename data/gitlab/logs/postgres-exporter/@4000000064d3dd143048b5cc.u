@@ -1,6 +1,0 @@
-2023-08-09_18:37:25.77269 ts=2023-08-09T18:37:25.771Z caller=main.go:86 level=warn msg="Error loading config" err="Error opening config file \"postgres_exporter.yml\": open postgres_exporter.yml: no such file or directory"
-2023-08-09_18:37:25.77277 ts=2023-08-09T18:37:25.771Z caller=proc.go:250 msg="Excluded databases" databases=[]
-2023-08-09_18:37:25.77277 ts=2023-08-09T18:37:25.771Z caller=main.go:99 level=warn msg="The extended queries.yaml config is DEPRECATED" file=/var/opt/gitlab/postgres-exporter/queries.yaml
-2023-08-09_18:37:25.78633 ts=2023-08-09T18:37:25.785Z caller=main.go:142 level=warn msg="Failed to create PostgresCollector" err="pq: the database system is starting up"
-2023-08-09_18:37:25.78635 ts=2023-08-09T18:37:25.786Z caller=tls_config.go:274 level=info msg="Listening on" address=127.0.0.1:9187
-2023-08-09_18:37:25.78635 ts=2023-08-09T18:37:25.786Z caller=tls_config.go:277 level=info msg="TLS is disabled." http2=false address=127.0.0.1:9187

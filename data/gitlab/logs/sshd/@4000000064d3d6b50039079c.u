@@ -1,9 +1,0 @@
-2023-08-09_13:15:41.89475 Server listening on 0.0.0.0 port 22.
-2023-08-09_13:15:41.89482 Server listening on :: port 22.
-2023-08-09_13:33:38.17781 Invalid user  from 64.62.197.215 port 13827
-2023-08-09_13:33:41.45486 Connection closed by invalid user  64.62.197.215 port 13827 [preauth]
-2023-08-09_16:47:09.82953 kex_exchange_identification: banner line contains invalid characters
-2023-08-09_16:47:09.82959 banner exchange: Connection from 161.189.192.94 port 52536: invalid format
-2023-08-09_16:58:19.74662 kex_exchange_identification: read: Connection reset by peer
-2023-08-09_16:58:19.74667 Connection reset by 167.94.145.58 port 55698
-2023-08-09_16:58:34.78644 Connection closed by 167.94.145.58 port 57602 [preauth]
