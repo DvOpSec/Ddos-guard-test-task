@@ -29,7 +29,7 @@
 ##! On AWS EC2 instances, we also attempt to fetch the public hostname/IP
 ##! address from AWS. For more details, see:
 ##! https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
-# external_url 'https://gitlab.teplobrick.ru'
+external_url 'https://gitlab.example.com'
 
 ## Roles for multi-instance GitLab
 ##! The default is to have no roles enabled, which results in GitLab running as an all-in-one instance.
@@ -1586,7 +1586,7 @@
 ##! Docs: https://docs.gitlab.com/omnibus/settings/nginx.html#configuring-proxy-protocol
 # nginx['proxy_protocol'] = false
 
-# nginx['custom_gitlab_server_config'] = "location ^~ /foo-namespace/bar-project/raw/ {\n deny all;\n}\n"
+nginx['custom_gitlab_server_config'] = "location /-/plantuml/ { \n    proxy_cache off; \n    proxy_pass  http://plantuml-server:8080/; \n}\n"
 # nginx['custom_nginx_config'] = "include /etc/nginx/conf.d/example.conf;"
 # nginx['proxy_read_timeout'] = 3600
 # nginx['proxy_connect_timeout'] = 300
@@ -1748,11 +1748,11 @@
 ################################################################################
 
 ##! Define to enable GitLab Pages
-# pages_external_url "http://pages.teplobrick.ru/"
-# gitlab_pages['enable'] = true
+pages_external_url "http://pages.example.com/"
+gitlab_pages['enable'] = true
 
 ##! Configure to expose GitLab Pages on external IP address, serving the HTTP
-# gitlab_pages['external_http'] = [94.250.248.31]
+# gitlab_pages['external_http'] = []
 
 ##! Configure to expose GitLab Pages on external IP address, serving the HTTPS
 # gitlab_pages['external_https'] = []
