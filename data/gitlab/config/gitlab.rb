@@ -29,8 +29,8 @@
 ##! On AWS EC2 instances, we also attempt to fetch the public hostname/IP
 ##! address from AWS. For more details, see:
 ##! https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
-external_url 'https://gitlab.example.com'
-
+# external_url 'https://gitlab.teplobrick.ru'
+registry['env'] = { "REGISTRY_HTTP_RELATIVEURLS" => true }
 ## Roles for multi-instance GitLab
 ##! The default is to have no roles enabled, which results in GitLab running as an all-in-one instance.
 ##! Options:
@@ -867,13 +867,13 @@ external_url 'https://gitlab.example.com'
 ##! Docs: https://docs.gitlab.com/ee/administration/packages/container_registry.html
 ################################################################################
 
-# registry_external_url 'https://registry.teplobrick.ru'
+registry_external_url 'http://registry.teplobrick.ru'
 
 ### Settings used by GitLab application
-# gitlab_rails['registry_enabled'] = true
-# gitlab_rails['registry_host'] = "registry.gitlab.teplobrick.ru"
-# gitlab_rails['registry_port'] = "5005"
-# gitlab_rails['registry_path'] = "/var/opt/gitlab/gitlab-rails/shared/registry"
+gitlab_rails['registry_enabled'] = true
+gitlab_rails['registry_host'] = "registry.gitlab.teplobrick.ru"
+gitlab_rails['registry_port'] = "5005"
+gitlab_rails['registry_path'] = "/var/opt/gitlab/gitlab-rails/shared/registry"
 
 # Notification secret, it's used to authenticate notification requests to GitLab application
 # You only need to change this when you use external Registry service, otherwise
@@ -887,12 +887,12 @@ external_url 'https://gitlab.example.com'
 # gitlab_rails['registry_issuer'] = "omnibus-gitlab-issuer"
 
 ### Settings used by Registry application
-# registry['enable'] = true
-# registry['username'] = "registry"
-# registry['group'] = "registry"
+registry['enable'] = true
+registry['username'] = "registry"
+registry['group'] = "registry"
 # registry['uid'] = nil
 # registry['gid'] = nil
-# registry['dir'] = "/var/opt/gitlab/registry"
+registry['dir'] = "/var/opt/gitlab/registry"
 # registry['registry_http_addr'] = "127.0.0.1:5000"
 # registry['debug_addr'] = "localhost:5001"
 # registry['log_directory'] = "/var/log/gitlab/registry"
@@ -1586,7 +1586,7 @@ external_url 'https://gitlab.example.com'
 ##! Docs: https://docs.gitlab.com/omnibus/settings/nginx.html#configuring-proxy-protocol
 # nginx['proxy_protocol'] = false
 
-nginx['custom_gitlab_server_config'] = "location /-/plantuml/ { \n    proxy_cache off; \n    proxy_pass  http://plantuml-server:8080/; \n}\n"
+# nginx['custom_gitlab_server_config'] = "location ^~ /foo-namespace/bar-project/raw/ {\n deny all;\n}\n"
 # nginx['custom_nginx_config'] = "include /etc/nginx/conf.d/example.conf;"
 # nginx['proxy_read_timeout'] = 3600
 # nginx['proxy_connect_timeout'] = 300
@@ -1748,11 +1748,11 @@ nginx['custom_gitlab_server_config'] = "location /-/plantuml/ { \n    proxy_cach
 ################################################################################
 
 ##! Define to enable GitLab Pages
-pages_external_url "http://pages.example.com/"
+pages_external_url "http://teplobrick.ru/"
 gitlab_pages['enable'] = true
 
 ##! Configure to expose GitLab Pages on external IP address, serving the HTTP
-# gitlab_pages['external_http'] = []
+# gitlab_pages['external_http'] = [94.250.248.31]
 
 ##! Configure to expose GitLab Pages on external IP address, serving the HTTPS
 # gitlab_pages['external_https'] = []
